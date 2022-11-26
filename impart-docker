@@ -4,4 +4,4 @@
 # impart --help
 # impart --help COMMAND
 
-docker run -t --rm=true -v $(pwd):/working -w /working impart-cli $@
+docker run -t --rm=true -v ${pwd}:/working -w /working impart-cli $@
